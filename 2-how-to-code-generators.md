@@ -1,6 +1,8 @@
+# How to Use Code Generators #
+
 Background:
 
-There are 2 Yeoman generators (application and component).  They each providecode scaffolding for applications and components respectively.
+There are 2 Yeoman generators (application and component).  They each provide code scaffolding for applications and components respectively.
 
 In addition to scaffolding code files, the generator gives the developer the following capabilities (see commands in step 3 below):
 
