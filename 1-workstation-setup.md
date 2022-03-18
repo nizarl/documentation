@@ -3,24 +3,26 @@
 Overview
 This document walks through how to set up your developer workstation for frontend development.
 
+*TLDR: Requirements*
 
 Node version 14.x
 
 npm version 6.x
 
+facebook watchman
 
-Install Prerequisite Software
 
-Node
+**Install Prerequisite Software**
+
+**Node**
 
 Our applications are tested using the Node version 14.x, so we recommend having this version set as the default node environment on your work computer.
 
-NVM
+**NVM**
 
 nvm is our recommended approach for managing your local node environment. Please note that nvm is different than npm.
 
 nvm installation instructions can be found here: https://github.com/nvm-sh/nvm#install--update-script 
-
 
 
 Use the following command to install nvm:
@@ -28,25 +30,34 @@ Use the following command to install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
 
-
 If you are using nvm to manage your node installation, you can run the following command to install this node version:
 
-nvm install 14.19.1
+*nvm install 14.19.1*
 
 
 You can then run the following command to make this your default environment:
 
-nvm alias default 14.19.1
+*nvm alias default 14.19.1*
 
 
 NPM
 We recommend to check your npm version via `npm -v` if u did not see version 6.14.8, then run the global install on the following npm version, as it was the most recently tested version to to have worked correctly with our generators:
 
-npm install -g npm@6.14.8
+*npm install -g npm@6.14.8*
 
 
 Yeoman
 Please reference our article: Yeoman Generator
+
+*npm install -g yo*
+
+Install Developer Software:
+Install Facebook watchman: https://facebook.github.io/watchman/
+
+For Windows10 (As of 4/2021): Watchman is in beta phase, it require several extra steps detail can be found here (You may also need to request access from AskIT to add path into your environment config). Also note that to pick a watchman version that has windows bin file, latest version may not have it! For example, here is an older version has windows bin content. 
+
+Macbook: brew install watchman
+
 
 
 
@@ -77,14 +88,6 @@ npm --version
 
 
 You can find more info on Node here:  https://nodejs.org/en/download/
-
-
-Install Developer Software:
-Install Facebook watchman: https://facebook.github.io/watchman/
-
-For Windows10 (As of 4/2021): Watchman is in beta phase, it require several extra steps detail can be found here (You may also need to request access from AskIT to add path into your environment config). Also note that to pick a watchman version that has windows bin file, latest version may not have it! For example, here is an older version has windows bin content. 
-
-Macbook: brew install watchman
 
 
 Recommended:  
