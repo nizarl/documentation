@@ -1,10 +1,11 @@
-# Workstation Setup and software requiremnts #
+# Workstation Setup and Software requiremnts #
 
 Overview
 This document walks through how to set up your developer workstation for frontend development.
 
 
 Node version 14.x
+
 npm version 6.x
 
 
